@@ -1,17 +1,4 @@
-// import './App.css'
-// import Search from './components/search'
 
-// function App() {
- 
-
-//   return (
-//     <>
-//     <Search/>
-//      </>
-//   )
-// }
-
-// export default App
 import { useState, useEffect } from 'react';
 import {Recipefinder,getRecipeDetails} from './components/apicall';
 import RecipeCard from './components/card';
