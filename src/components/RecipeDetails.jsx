@@ -1,42 +1,4 @@
-// import PropTypes from 'prop-types';
 
-// function RecipeDetails({ recipe }) {
-//   if (!recipe) return null;
-
-//   return (
-//     <div>
-//       <h2>{recipe.title}</h2>
-//       <img src={recipe.image} alt={recipe.title} />
-//       <p>{recipe.summary}</p>
-//       <ul>
-//         {recipe.extendedIngredients.map((ingredient) => (
-//           <li key={ingredient.id}>{ingredient.original}</li>
-//         ))}
-//       </ul>
-//       <p>Instructions: {recipe.instructions}</p>
-//     </div>
-//   );
-// }
-
-
-
-
-// RecipeDetails.propTypes = {
-//     recipe: PropTypes.shape({
-//       title: PropTypes.string.isRequired,
-//       image: PropTypes.string.isRequired,
-//       summary: PropTypes.string.isRequired,
-//       extendedIngredients: PropTypes.arrayOf(
-//         PropTypes.shape({
-//           id: PropTypes.number.isRequired,
-//           original: PropTypes.string.isRequired,
-//         })
-//       ).isRequired,
-//       instructions: PropTypes.string.isRequired,
-//     }),
-//   };
-
-// export default RecipeDetails;
 
 
 
