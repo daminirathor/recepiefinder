@@ -29,7 +29,7 @@ function App() {
     const fetchRandomImage = async () => {
       try {
         const response = await fetch(
-          `https://api.unsplash.com/photos/random?query=food&client_id=8nxKRV8lxRG40eIRjo64M0RYz45BK__UiAepGlo1q1U`
+          `https://api.unsplash.com/photos/random?query=food&client_id=your access key`
         );
         const data = await response.json();
        
